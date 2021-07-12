@@ -4,7 +4,8 @@
   "description": "Promise-based wechat mini program http request framework similar to the axios framework.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix src"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/snowqiqi/wx-request/issues"
   },
-  "homepage": "https://github.com/snowqiqi/wx-request#readme"
+  "homepage": "https://github.com/snowqiqi/wx-request#readme",
+  "devDependencies": {
+    "eslint": "^7.30.0"
+  }
 }

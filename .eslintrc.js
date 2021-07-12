@@ -1,0 +1,52 @@
+module.exports = {
+  'env': {
+    'browser': true,
+    'node': true,
+    'es2021': true,
+  },
+  'globals': {
+    'wx': true,
+  },
+  'extends': 'eslint:recommended',
+  'parserOptions': {
+    'ecmaVersion': 12,
+    'sourceType': 'module',
+  },
+  'rules': {
+    'curly': [ 'error', 'all' ],
+    'dot-location': [ 'error', 'property' ],
+    'eqeqeq': [ 'error', 'always' ],
+    'no-multi-spaces': [ 'error', {
+      'ignoreEOLComments': true,
+    } ],
+    'array-bracket-spacing': [ 'error', 'always' ],
+    'brace-style': 2,
+    'comma-style': 2,
+    'comma-dangle': [ 'error', 'always-multiline' ],
+    'computed-property-spacing': 2,
+    'eol-last': 2,
+    'func-call-spacing': 2,
+    'function-paren-newline': 2,
+    'indent': [ 'error', 2 ],
+    'key-spacing': 2,
+    'new-cap': 2,
+    'no-trailing-spaces': 2,
+    'object-curly-spacing': [ 'error', 'always' ],
+    'quotes': [ 'error', 'single' ],
+    'semi': 2,
+    'semi-spacing': [ 'error', {
+      'before': false,
+      'after': true,
+    } ],
+    'space-before-function-paren': [ 'error', {
+      'anonymous': 'always',
+      'named': 'never',
+      'asyncArrow': 'always',
+    } ],
+    'space-infix-ops': 2,
+    'arrow-spacing': 2,
+    'no-duplicate-imports': 2,
+    'no-var': 2,
+    'prefer-const': 2,
+  },
+};
