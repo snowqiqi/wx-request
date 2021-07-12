@@ -1,0 +1,25 @@
+{
+  "name": "wx-request",
+  "version": "1.0.0",
+  "description": "Promise-based wechat mini program http request framework similar to the axios framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowqiqi/wx-request.git"
+  },
+  "keywords": [
+    "wechat",
+    "request",
+    "axios",
+    "promise"
+  ],
+  "author": "SnowQiQi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snowqiqi/wx-request/issues"
+  },
+  "homepage": "https://github.com/snowqiqi/wx-request#readme"
+}
